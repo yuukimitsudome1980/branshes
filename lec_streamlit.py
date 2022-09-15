@@ -44,14 +44,6 @@ y = [10,20,30,40,50]
 ax.plot(x,y)
 st.pyplot(fig)
 
-
-#画像表示
-"""
-#画像表示
-"""
-image = Image.open('sample1.jpg')
-st.image(image, caption='サンプル１',use_column_width=True)
-
 #インタラクティブ
 
 #ボタン設置
